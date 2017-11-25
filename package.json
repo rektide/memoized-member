@@ -1,0 +1,26 @@
+{
+	"name": "memoized-member",
+	"version": "1.0.0",
+	"description": "Create a memoization handler that caches the result into a hidden ._name.",
+	"main": "memoized-member.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/memoized-member"
+	},
+	"keywords": [],
+	"author": "rektide de la faye",
+	"license": "X11",
+	"devDependencies": {
+		"@std/esm": "^0.17.1",
+		"tape": "^4.8.0"
+	},
+	"@std/esm": {
+		"esm": "js"
+	},
+	"module": "property-accumulator.js"
+
+
+}
